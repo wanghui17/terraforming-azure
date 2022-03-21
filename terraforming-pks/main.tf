@@ -1,5 +1,5 @@
 terraform {
-  required_version = "< 0.12.0"
+  required_version = "< 0.15.5"
 }
 
 provider "azurerm" {
@@ -9,7 +9,7 @@ provider "azurerm" {
   tenant_id       = "${var.tenant_id}"
   environment     = "${var.cloud_name}"
 
-  version = "~> 1.32"
+  version = "=1.44.0"
 }
 
 module "infra" {
