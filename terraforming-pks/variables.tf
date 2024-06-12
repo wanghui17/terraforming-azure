@@ -31,8 +31,8 @@ variable "dns_suffix" {
 
 variable "dns_subdomain" {
   type        = string
-  "description" = "The base subdomain used for PCF. For example, if your dns_subdomain is `cf`, and your dns_suffix is `pivotal.io`, your PCF domain would be `cf.pivotal.io`"
-  "default"     = ""
+  description = "The base subdomain used for PCF. For example, if your dns_subdomain is `cf`, and your dns_suffix is `pivotal.io`, your PCF domain would be `cf.pivotal.io`"
+  default     = ""
 }
 
 variable "pcf_infrastructure_subnet" {

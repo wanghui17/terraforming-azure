@@ -7,6 +7,11 @@ output "subscription_id" {
   value     = "${var.subscription_id}"
 }
 
+output "location" {
+  sensitive = true
+  value = "${var.location}"
+}
+
 output "tenant_id" {
   sensitive = true
   value     = "${var.tenant_id}"
